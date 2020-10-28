@@ -8,6 +8,16 @@ seed = rng('shuffle');
 %
 %  SYSTEM IDENTIFICATION PROTOCOL: 
 %
+%
+%       !IMPORTANT! PLEASE READ: This code will not run  without 
+%       MATLAB's Global Optimization Toolbox. To install the toolbox, 
+%       click: Home --> Add-Ons --> Get Add-Ons. 
+%       Search for "Global Optimization Toolbox" and click on toolbox 
+%       then "Install". Follow the prompts to finish installation. 
+%       (In older versions of MATLAB, you can obtain the toolbox 
+%        by re-running the installer.)
+%
+%
 %       This code uses MATLAB's fmincon to determine the parameter values
 %       that best fit the experimental data. 
 %

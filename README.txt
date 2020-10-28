@@ -10,6 +10,9 @@ Open and run the following .m files to obtain the results presented in the manus
  
  - A_system_identification
 	determines the parameter values that optimize the specified goodness of fit measure, using the model specified in line 155. (Functions of the different available models are in folder free_energy_models.
+	!IMPORTANT! The system identification will not run without MATLAB's Global Optimization Toolbox. To install the toolbox, click: Home --> Add-Ons --> Get Add-Ons. Search for "Global Optimization Toolbox" and click on toolbox then "Install". Follow the prompts to finish installation. (In older versions of MATLAB, you can obtain the toolbox by re-running the installer.)
+
+
 
 - B_SPECS_simulation
 	runs an agent-based simulation of the cells using new transport-and-sensing model. It extends the SPECS simulation from Jiang, et al. and was used to ensure that the analytical approximation used in the system identification well matched the mechanistic model used in the simulations.
